@@ -9,7 +9,7 @@ branches:
 script:
   - node --version
   - hexo clean && hexo g -d
-  - cat ./public/index.html
+  - ls -l
 deploy:
   provider: pages
   skip-cleanup: true
