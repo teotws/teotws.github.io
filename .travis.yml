@@ -9,7 +9,7 @@ branches:
 script:
   - npm install hexo && npm install
   - hexo clean && hexo g
-  - ls -l && cd public && ls -l && echo index.html
+  - ls -l && cd public && ls -l && cat index.html
 deploy:
   provider: pages
   skip-cleanup: true
