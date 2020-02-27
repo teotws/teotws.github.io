@@ -2,15 +2,12 @@ sudo: false
 language: node_js
 node_js:
   - 13
-#cache: npm
+cache: npm
 branches:
   only:
     - hexo-source # store source code of hexo in hexo-source branch
 script:
-  - npm install -g hexo-cli && npm install
-  - rm -rf public
-  - hexo clean && hexo g
-  - ls -l && cd public && ls -l && cat -b index.html
+  - hexo g
 deploy:
   provider: pages
   skip-cleanup: true
