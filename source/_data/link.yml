@@ -1,0 +1,13 @@
+class:
+  class_name: 友情鏈接
+  link_list:
+    1:
+      name: xxx
+      link: https://baidu.com
+      #avatar: https://cdn.xxxxx.top/avatar.png
+      descr: xxxxxxx
+    2:
+      name: xxxxxx
+      link: https://baidu.com/
+      #avatar: https://xxxxx/avatar.png
+      descr: xxxxxxx
