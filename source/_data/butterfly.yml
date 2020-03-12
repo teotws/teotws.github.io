@@ -98,7 +98,7 @@ katex:
 
 # Post info settings
 # ---------------
-avatar: /img/avatar.png
+avatar: /img/avatar.jpg
 
 # the banner image of index
 index_img: https://cdn.jsdelivr.net/gh/teotws/hexo@1.1/imgs/index/IMG_2020021112_0935_224.jpeg
@@ -277,13 +277,13 @@ qihu_site_verification:
 
 # 友情鏈接界面設置
 Flink:
-  headline: 友情鏈接
-  info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
-  address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
-  comment: 如果需要交換友鏈,請留言
+  headline: 友情链接
+  info_headline: 我的Blog资料
+  name: Blog 名字： skyland
+  address: Blog 地址： https://skyland.cc/
+  avatar: Blog 头像： https://skyland.cc/img/avatar.jpg
+  info: Blog 简介： 天空の城ラピュタ
+  comment: 如果需要交换友链,请留言
 
 # 打賞按鈕
 reward:
@@ -383,11 +383,11 @@ activate_power_mode:
 # 避免卡頓，建議只開啓一個
 # 點擊烟火特效
 fireworks:
-  enable: true
+  enable: false
 
 # 點擊出現愛心
 click_heart:
-  enable: false
+  enable: true
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
