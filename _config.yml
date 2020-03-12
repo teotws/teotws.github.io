@@ -98,6 +98,9 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+  type: git
+  repo: https://github.com/teotws/teotws.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: [master]
 
 markdown_it_plus:
   plugins:
