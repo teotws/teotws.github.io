@@ -100,7 +100,7 @@ theme: Butterfly
 deploy:
   type: git
   repo: https://github.com/teotws/teotws.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [master]
+  branch: master
 
 markdown_it_plus:
   plugins:
